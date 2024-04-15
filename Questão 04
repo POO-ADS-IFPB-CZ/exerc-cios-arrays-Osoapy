@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        double soma = 0; int quantidade = 0;
+        Scanner scanner = new Scanner(System.in);
+        for(double numAtual = 0; numAtual >= 0; System.out.println("Insira um num: "), numAtual = scanner.nextDouble(), soma+= numAtual, quantidade++) {}
+        System.out.println("Quantidade de nums: " + quantidade);
+        System.out.println("Média de tais: " + soma / quantidade);
+    }
+}
